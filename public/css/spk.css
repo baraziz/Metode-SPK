@@ -1,0 +1,53 @@
+.kotak1{
+  background-color: #0d6efd;
+  height: 610px;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 15px;
+  margin-top: 45px;
+}
+
+.kotak2{
+  background-color: #FD9C0D;
+  height: auto;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.judul{
+  color: rgb(166, 58, 3);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+  font-size: 40px;
+}
+.des{
+  width: 900px;
+}
+.desc{
+  color: rgb(166, 58, 3);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.text-bawah1{
+  color: white;
+  font-size: 20px;
+  height: 100px;
+  margin-left: 190px;
+  margin-right: 190px;
+  border-radius: 7px;
+  text-align: justify;
+}
+
+.copyright{
+  background-color:rgb(252, 238, 191); 
+  height: 50px;
+  margin-top: 274px;
+  border-radius: 0 0 10px 10px;
+}
