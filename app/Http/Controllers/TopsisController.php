@@ -161,7 +161,7 @@ class TopsisController extends Controller
     {
         for ($i = 0; $i < count($alternatives) - 1; $i++) {
             for ($j = 0; $j < count($alternatives) - 1; $j++) {
-                if ($alternatives[$j]['bobot'] < $alternatives[$j + 1]['bobot']) {
+                if ($alternatives[$j] < $alternatives[$j + 1]) {
                     $temp = $alternatives[$j];
                     $alternatives[$j] = $alternatives[$j + 1];
                     $alternatives[$j + 1] = $temp;
